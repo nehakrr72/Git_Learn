@@ -5,8 +5,8 @@ jobs:
   job-1:
     runs-on: ubuntu-24.04
     steps:
-    - name: print 1st msg
-      run: echo "hello all from github actions"
+      - name: print 1st msg
+        run: echo "hello all from github actions"
 
-    - name: print msg2
-      run: echo "thanks for using me"
+      - name: print msg2
+        run: echo "thanks for using me"
