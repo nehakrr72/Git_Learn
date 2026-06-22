@@ -2,11 +2,11 @@ name: workflow-2
 on: workflow_dispatch
 
 jobs:
-  job1:
+  job-1:
     runs-on: ubuntu-24.04
     steps:
     - name: print 1st msg
       run: echo "hello all from github actions"
 
-    - name: pting msg2
+    - name: print msg2
       run: echo "thanks for using me"
