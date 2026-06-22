@@ -1,5 +1,6 @@
 name: workflow-2
-on: workflow_dispatch
+
+on: [workflow_dispatch]
 
 jobs:
   job-1:
@@ -7,6 +8,6 @@ jobs:
     steps:
       - name: print 1st msg
         run: echo "hello all from github actions"
-
+      
       - name: print msg2
         run: echo "thanks for using me"
