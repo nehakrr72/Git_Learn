@@ -9,4 +9,5 @@ jobs:
         run: echo "hello all from github actions"
 
       - name: print 2nd msg
-        run: |echo "thanks for using me"
+        run: |
+          echo "thanks for using me"
