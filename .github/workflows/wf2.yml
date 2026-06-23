@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: print a msg
-        run: echo "hello all from github actions"
+        run: |
+          echo "hello all from github actions"
 
       - name: print 2nd msg
         run: |
