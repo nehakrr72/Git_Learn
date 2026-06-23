@@ -1,18 +1,15 @@
-name: Workflow-3
+name: Workflow-5
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   job-1:
-    name: Print Messages Job
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Print Welcome-Message
-        run: |
-          echo "message1!"
+      - name: Print first message
+        run: echo "Hello everyone! Welcome to GitHub Actions!"
 
-      - name: Print Thank-You-Message
-        run: |
-          echo "message2!"
+      - name: Print second message
+        run: echo "Thank you for using GitHub Actions! Happy Learning!"
