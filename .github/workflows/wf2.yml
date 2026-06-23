@@ -11,8 +11,8 @@ jobs:
     steps:
       - name: Print Welcome Message
         run: |
-          echo "Hello all from GitHub Actions"
+          echo "Hello all from GitHub Actions!"
 
       - name: Print Thank You Message
         run: |
-          echo "Thanks for using GitHub Actions"
+          echo "Thanks for using GitHub Actions!"
