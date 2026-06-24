@@ -8,8 +8,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print first message
-        run: echo "Hello everyone! Welcome to GitHub Actions!"
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Print second message
-        run: echo "Thank you for using GitHub Actions! Happy Learning!"
+      - name: Install dependencies
+        run: npm install
+
+      - name: test
+        run: npm test
+
+      - name: starting the app
+        run: npm start
