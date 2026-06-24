@@ -16,6 +16,3 @@ jobs:
 
       - name: test
         run: npm test
-
-      - name: starting the app
-        run: npm start
